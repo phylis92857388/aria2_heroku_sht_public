@@ -25,7 +25,7 @@ const server = http.createServer(app);
 const PORT = process.env.PORT || 3000;
 const ARIA_SECRET = process.env.ARIA2C_SECRET || 'test';
 const SHTBASE = process.env.SHTLINK || "https://www.sehuatang.org/";
-const APPNAME = process.env.HEROKU_APP_NAME || null;
+const APPNAME = process.env.APP_NAME || null;
 const CFLINK = process.env.CFLINK || null;
 const keepAliveHttpAgent = new HttpAgent({
     maxSockets: 100,

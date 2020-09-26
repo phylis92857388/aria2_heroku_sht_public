@@ -9,7 +9,7 @@
 	"repository": "https://github.com/xhghs/aria2_heroku_sht_public",
 	"keywords": ["AriaNG"],
 	"env": {
-		"HEROKU_APP_NAME": {
+		"APP_NAME": {
 			"description": "This should be the same as \"App name\" above.",
 			"value": ""
 		},
